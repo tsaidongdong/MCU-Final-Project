@@ -18,10 +18,10 @@ The application relies on precise timing and interrupt handling to process signa
     **LEDs**: Managed through **Timer2** and **PWM** modules to achieve smooth "breathing" brightness transitions.
 
 ## Technical Stack
-### **Microcontroller**: PIC18F4520.
-### **Development Environment**: MPLAB X IDE & MPLAB-PICkit-4.
-### **Language**: C (XC8 Compiler).
-### **Key Techniques**: Interrupts with priority, Timer2, PWM, and hardware circuit soldering.
+* Microcontroller: PIC18F4520.
+* Development Environment: MPLAB X IDE & MPLAB-PICkit-4.
+* Language: C (XC8 Compiler).
+* Key Techniques: Interrupts with priority, Timer2, PWM, and hardware circuit soldering.
 
 ## Project Structure
 * `main.c`: Core logic for Morse translation, PWM initialization, and LCD control.
