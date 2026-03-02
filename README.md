@@ -4,10 +4,10 @@
 This is a hardware-software integrated project developed using the **PIC18F4520** microcontroller. It serves as an interactive educational tool that translates Morse code button inputs into alphanumeric characters, triggering synchronized visual effects through an LCD and LEDs.
 
 ## Key Features
-**Dual-Button Input System**: Utilizes one button for Morse code signal input (dots/dashes) and another for character confirmation.
-**Real-time Translation**: Interprets Morse code sequences into text displayed on an **LCD1602A** screen.
-**Dynamic Visual Effects**: Includes multiple LED response modes, such as specific blinking patterns and **PWM-controlled breathing lights.
-**Command-Based Interaction**: Supports specific string commands (e.g., `br` for breathing light, `la` to `ld` for specific LEDs, and `end` to reset) to trigger different hardware states.
+* **Dual-Button Input System**: Utilizes one button for Morse code signal input (dots/dashes) and another for character confirmation.
+* **Real-time Translation**: Interprets Morse code sequences into text displayed on an **LCD1602A** screen.
+* **Dynamic Visual Effects**: Includes multiple LED response modes, such as specific blinking patterns and **PWM-controlled breathing lights.
+* **Command-Based Interaction**: Supports specific string commands (e.g., `br` for breathing light, `la` to `ld` for specific LEDs, and `end` to reset) to trigger different hardware states.
 
 ## System Architecture & Logic
 The application relies on precise timing and interrupt handling to process signals:
