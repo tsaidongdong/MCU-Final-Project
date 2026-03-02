@@ -24,7 +24,7 @@ The application relies on precise timing and interrupt handling to process signa
 **Key Techniques**: Interrupts with priority, Timer2, PWM, and hardware circuit soldering.
 
 ## Project Structure
-* [cite_start]`main.c`: Core logic for Morse translation, PWM initialization, and LCD control[cite: 13].
-* [cite_start]`test.c`: Configuration bit settings and basic interrupt testing[cite: 1].
-* [cite_start]`Makefile`: Build configuration for the MPLAB project.
-* [cite_start]`微算機期末專題35組.pdf`: Detailed project report and system documentation[cite: 15].
+* `main.c`: Core logic for Morse translation, PWM initialization, and LCD control.
+* `test.c`: Configuration bit settings and basic interrupt testing.
+* `Makefile`: Build configuration for the MPLAB project.
+* `微算機期末專題35組.pdf`: Detailed project report and system documentation.
